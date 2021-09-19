@@ -35,6 +35,15 @@ image::docs/images/cmt.png[]
 }
 ----
 
+=== How to get a Facebook Page Access Token
+
+. Go to https://developers.facebook.com/tools/explorer/[Graph API Explorer].
+. Select the app to use.
+. Inside **Permissions**, select the above permissions.
+. Click **Generate Access Token** and select the page.
+. Under **User or Page**, select the page.
+. Copy the token.
+
 ## Running the script
 
 [source,shell]
