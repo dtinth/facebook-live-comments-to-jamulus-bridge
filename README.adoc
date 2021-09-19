@@ -19,7 +19,10 @@ image::docs/images/cmt.png[]
 
 * https://github.com/dtinth/jamulus/tree/dtinth:[My fork of Jamulus server] running with JSON-RPC on port 22222.
 * Jamcaster running with JSON-RPC forwarded to port 22100.
-* A Facebook Graph API Page Access Token.
+* A Facebook Graph API Page Access Token with these permissions:
+** `pages_show_list`
+** `pages_read_engagement`
+** `pages_read_user_content`
 
 == Config
 
